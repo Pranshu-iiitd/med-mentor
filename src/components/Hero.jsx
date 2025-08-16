@@ -9,8 +9,9 @@ const Hero = () => {
         <p className="hero-subtitle">
           Assess, Consult, and Connect with the Best Healthcare Providers.
         </p>
-        <button className="hero-btn">Chat with our MediBot</button>
-
+        <Link to="/medibot">
+          <button className="hero-btn">Chat with our MediBot</button>
+        </Link>
         {/* Stats */}
         <div className="hero-stats">
           <div>
