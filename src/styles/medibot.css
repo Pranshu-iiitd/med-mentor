@@ -1,0 +1,31 @@
+.medibot {
+  width: 100%;
+  min-height: 85vh;
+  background: linear-gradient(135deg, #4c90af, #2ecc71);
+  text-align: center;
+  color: white;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.medibot-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.medibot-subtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.medibot-box {
+  width: 90%;
+  max-width: 1000px;
+  min-height: 650px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}

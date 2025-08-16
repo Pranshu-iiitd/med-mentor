@@ -1,0 +1,18 @@
+/* src/styles/Footer.css */
+.footer {
+  background: #134e4a;  /* deep teal for professional look */
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+  width: 100%;
+}
+
+.footer a {
+  color: #2ecc71; /* your site’s green */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

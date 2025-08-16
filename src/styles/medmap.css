@@ -1,0 +1,29 @@
+.medmap {
+  width: 100%;
+  min-height: 85vh;
+  background: linear-gradient(135deg, #4c90af, #2ecc71);
+  text-align: center;
+  color: white;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.medmap-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.medmap-subtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.map-box {
+  width: 90%;
+  height: 500px;   /* ✅ important for map */
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}

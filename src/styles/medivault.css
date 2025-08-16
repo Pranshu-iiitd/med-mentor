@@ -1,0 +1,92 @@
+.medivault {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #4c90af, #2ecc71);
+  min-height: 100vh;
+}
+
+.medivault-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.medivault-subtitle {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+  margin-bottom: 40px;
+}
+
+.vault-section {
+  margin: 40px auto;
+  max-width: 1100px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.vault-section h3 {
+  color: #134e4a;
+  margin-bottom: 20px;
+}
+
+.consultation-list {
+  list-style: none;
+  padding: 0;
+}
+
+.consultation-list li {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.consultation-list li:last-child {
+  border-bottom: none;
+}
+
+.notes {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.reports-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.report-card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.report-card h4 {
+  color: #16a34a;
+  margin-bottom: 10px;
+}
+
+.report-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.vault-btn {
+  background: #16a34a;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.vault-btn:hover {
+  background: #134e4a;
+}
